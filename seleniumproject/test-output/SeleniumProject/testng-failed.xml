@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SeleniumProject]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="firefoxTest(failed)">
+    <classes>
+      <class name="com.edureka.testng.AssignmentEdureka">
+        <methods>
+          <include name="launchApp"/>
+          <include name="loginToGmail" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.edureka.testng.AssignmentEdureka -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [SeleniumProject] -->

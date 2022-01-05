@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-10T15:37:53Z" name="Default suite" finished-at="2019-07-10T15:37:53Z" duration-ms="116">
+    <groups>
+    </groups>
+    <test started-at="2019-07-10T15:37:53Z" name="Default test" finished-at="2019-07-10T15:37:53Z" duration-ms="116">
+      <class name="com.edureka.testng.LoginToGmail">
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="launchApp" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\Test\AppData\Local\Temp\testng-eclipse--365322732\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method launchApp but has not been marked @Optional or defined
+in C:\Users\Test\AppData\Local\Temp\testng-eclipse--365322732\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:363)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginToGmail(java.lang.String, java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="loginToGmail" data-provider="getData" finished-at="2019-07-10T16:37:53Z" duration-ms="16" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[katyayannaidu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[warenbafet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGmail -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="closeApplication" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="launchApp" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginToGmail(java.lang.String, java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="loginToGmail" data-provider="getData" finished-at="2019-07-10T16:37:53Z" duration-ms="5" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[katyayannaidu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[warenbafet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGmail -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="closeApplication" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApp(java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="launchApp" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginToGmail(java.lang.String, java.lang.String)[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="loginToGmail" data-provider="getData" finished-at="2019-07-10T16:37:53Z" duration-ms="4" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumedureka@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGmail -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.edureka.testng.LoginToGmail@691a7f8f]" started-at="2019-07-10T16:37:53Z" name="closeApplication" finished-at="2019-07-10T16:37:53Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.edureka.testng.LoginToGmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
